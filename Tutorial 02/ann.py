@@ -37,8 +37,8 @@ class NeuralNetwork:
 
     def __init__(self):
         # initialize weights with random values
-        self.weights1 = np.random.rand(9, 4)
-        self.weights2 = np.random.rand(4, 1)
+        self.weights1 = np.random.rand(9, 5)
+        self.weights2 = np.random.rand(5, 1)
 
         # declare variables for pred_output, input and labels
         self.output = None
